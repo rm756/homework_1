@@ -1,0 +1,50 @@
+body {
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: whitesmoke;
+}
+
+form{
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+h2 {text-align: center
+}
+
+p{
+    font-size: 20px;
+}
+
+.formcolor {
+    background-color: skyblue;
+
+}
+
+.formstyle{
+    height: 300px;
+
+}
+
+.aboutmestyle{
+    padding: 20px
+}
+
+.box {
+    height: 250px;
+    line-height: 250px;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
