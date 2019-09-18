@@ -3,6 +3,7 @@
 <head>
     <title>My blog</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 
 
@@ -24,7 +25,7 @@
     <div class="formcolor">
 
         <div class="formstyle">
-            <form>
+            <form name="myform" onsubmit="return validateForm()">
                 <p>Subscribe! Never miss a post!</p>
                 First name:
                 <input type="text" name="firstname"><br>
@@ -32,11 +33,8 @@
                 <input type="text" name="lastname"><br>
                 Email:
                 <input type="email" name="email"><br>
-                Hometown:
-                <input type="text" name="hometown"><br>
-                Major:
-                <input type="text" name="major"><br>
                 <input type="submit" value="Submit">
+                    <input type="reset" value="Cancel">
             </form>
         </div>
 
