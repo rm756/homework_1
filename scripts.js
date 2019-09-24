@@ -29,11 +29,11 @@ function validateForm() {
         return false;
     }
     if (!/^[a-zA-Z]*$/g.test(firstname)) {
-        alert("no numbers in first name");
+        alert("Only letters in first name");
         return false;
     }
     if (!/^[a-zA-Z]*$/g.test(lastname)) {
-        alert("no numbers in last name");
+        alert("Only letters in last name");
         return false;
     }
 }
